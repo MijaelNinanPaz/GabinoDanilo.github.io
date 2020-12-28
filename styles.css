@@ -1,0 +1,59 @@
+.paralax_section{
+    width: 100%;
+    height: 300px;
+    position: relative;
+    background-color: #fff;
+}
+.paralax_section .paralax_section--div{
+    width: 60%;
+    height: 50%;
+    background-image: url(./img/starsBG2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 150px auto;
+    padding-top: 50px;
+}
+.paralax_section .paralax_section--div h2{
+    color: black;
+    font-weight: 500;
+    text-align: center;
+    transition: .3s;
+}
+.paralax_section .paralax_section--div:hover h2{
+    color: white;
+    text-shadow: 0 0 10px white, 0 0 10px white;
+    letter-spacing: 2px;
+}
+.links_section{
+    background-color: #212529;
+    width: 100%;
+    height: 200px;
+    padding: 50px;
+}
+.links_section .section_div{
+    width: 50%;
+    margin:auto;
+    display: flex;
+    justify-content: space-around;
+}
+.links_section .section_div .section_div--link{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #6c757d;
+    padding: 3px;
+    transition: .3s;
+}
+.links_section .section_div .section_div--link a{
+    text-decoration: none;
+    display: block;
+    width: 100%;
+    height: 100%;
+    font-size: 30px;
+    text-align: center;
+    color: #fff;
+}
+.links_section .section_div .section_div--link:hover{
+    transform: scale(1.2);
+}
