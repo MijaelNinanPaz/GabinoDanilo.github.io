@@ -5,26 +5,21 @@ padding-left: 30%;
 .paralax_section{
     width: 100%;
     height: 300px;
+    margin: 50px 0;
     position: relative;
-    background-color: #fff;
-}
-.paralax_section .paralax_section--div{
-    width: 60%;
-    height: 50%;
     background-image: url(./img/starsBG2.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    margin: 150px auto;
-    padding-top: 50px;
+    padding-top: 140px;
 }
-.paralax_section .paralax_section--div h2{
+.paralax_section h2{
     color: black;
     font-weight: 500;
     text-align: center;
     transition: .3s;
 }
-.paralax_section .paralax_section--div:hover h2{
+.paralax_section:hover h2{
     color: white;
     text-shadow: 0 0 10px white, 0 0 10px white;
     letter-spacing: 2px;
@@ -34,6 +29,7 @@ padding-left: 30%;
     width: 100%;
     height: 200px;
     padding: 50px;
+    margin-top: 50px;
 }
 .links_section .section_div{
     width: 50%;
@@ -42,12 +38,13 @@ padding-left: 30%;
     justify-content: space-around;
 }
 .links_section .section_div .section_div--link{
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    background-color: #6c757d;
-    padding: 3px;
+    width: 70px;
+    height: 70px;
+    border-radius: 5px;
+    background-color: #fff;
+    border:solid 3px #6c757d;
     transition: .3s;
+    box-sizing: border-box;
 }
 .links_section .section_div .section_div--link a{
     text-decoration: none;
@@ -57,6 +54,10 @@ padding-left: 30%;
     font-size: 30px;
     text-align: center;
     color: #fff;
+}
+.links_section .section_div .section_div--link a img{
+    width: 100%;
+    height: 100%;
 }
 .links_section .section_div .section_div--link:hover{
     transform: scale(1.2);
